@@ -1,38 +1,81 @@
 .App {
+  margin-top: 5vh;
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3em;
+  width: auto;
+  margin-bottom: 1em;
+}
+
+/* Left Column Styles */
+#left-column{
+  background-color: #F47B6B;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#profile-pic{
+  margin-bottom: 1%;
+  height: 5em;
+  width: 5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#left-col-header{
+  font-weight: bold;
+  font-size: 1.125em;
+}
+
+.DayPicker-Weekday{
+  color: white !important;
+  font-weight: bold;
+}
+
+
+/* Right Column Styles */
+#right-col-header{
+  padding-top: 10%;
+  font-weight: bold;
+  color: #004B6B;
+}
+
+#duration-selector{
+  text-align: center;
+  color: #004B6B;
+  font-size: 0.875em;
+  font-weight: 400;
+  background-color: #E5EAF0;
+  border-color: #E5EAF0;
+}
+
+#time-selector{
+  font-size: 1em;
+  color: #004B6B;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 992px) {
+  body{
+    font-size: 16px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 768px) {
+  body{
+    font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  body{
+    font-size: 14px;
+  }
+}
+
