@@ -6,9 +6,23 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 3em;
+  height: 4em;
   width: auto;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+}
+
+#submit-button{
+  background-color: #F47B6B;
+  color: white;
+  border: none;
+  margin-top: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit-button:hover{
+  background-color: #f39d92;
 }
 
 /* Left Column Styles */

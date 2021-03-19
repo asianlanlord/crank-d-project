@@ -1,5 +1,6 @@
 import './App.css';
-import { Container, Row, Col, ListGroup } from 'react-bootstrap';
+import { useState } from 'react';
+import { Container, Row, Col, ListGroup, Button } from 'react-bootstrap';
 import { Scrollbars } from 'react-custom-scrollbars';
 
 // Get DayPicker package and related styles.
@@ -12,6 +13,12 @@ import Crankd_Logo from './Assets/CRANKD_LOGO.svg';
 
 
 function App() {
+  // States for use later when adding functionality.
+  // const [ meetingDate, setMeetingDate ] = useState('');
+  // const [ meetingTime, setMeetingTime ] = useState('');
+  // const [ meetingDuration, setMeetingDuration ] = useState('');
+
+  // Custom modifiers and styles for react-day-picker component
   const modifiers = {
     birthday: new Date(),
   }
@@ -58,6 +65,7 @@ function App() {
             </Scrollbars>
           </Col>
         </Row>
+        <Button id="submit-button"> Create Meeting </Button>
       </Container>
     </div>
   );
