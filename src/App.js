@@ -51,7 +51,7 @@ function App() {
               <ListGroup.Item id="duration-selector"> 30 mins </ListGroup.Item>
             </ListGroup>
             <p id="right-col-header" > What time works best? </p>
-            <Scrollbars style={{ width: '100%', height: '50%' }}>
+            <Scrollbars style={{ width: '100%', height: '45%' }}>
               <ListGroup id="time-selector">
                 <ListGroup.Item> 12:00 </ListGroup.Item>
                 <ListGroup.Item> 12:30 </ListGroup.Item>
@@ -63,10 +63,11 @@ function App() {
                 <ListGroup.Item> 15:30 </ListGroup.Item>
               </ListGroup>
             </Scrollbars>
+            <Button id="submit-button"> Create Meeting </Button>
           </Col>
         </Row>
-        <Button id="submit-button"> Create Meeting </Button>
       </Container>
+      
     </div>
   );
 }
